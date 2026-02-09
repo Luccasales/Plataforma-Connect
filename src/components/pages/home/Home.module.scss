@@ -1,0 +1,49 @@
+.Home{
+   
+    height:85vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    img{
+        height: 100%;
+        width: auto;
+    }
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    height: 15vh;
+    justify-content: space-evenly;
+    color: #205691;
+}
+
+@media (max-width: 768px){
+    .Home{
+        flex-direction: column;
+        width: 100%;
+
+
+        img{
+            height: 30%;
+        }
+    }
+
+    .text{
+        width: 80%;
+        height: 50%;
+
+    h1{
+        font-size: 2rem;
+        line-height: 1.5;
+    }
+
+    p{
+        font-size: 1.2rem;
+        line-height: 1.4;
+    }
+}
+}

@@ -1,0 +1,40 @@
+.content{
+    display: flex;
+    height: 85vh;
+    background-image: url("../../../assets/backgroundQuemSomos.png");
+    background-size: cover;
+    background-position: center;
+    justify-content: flex-end;
+
+   
+}
+
+.text{
+    border: solid 1px;
+    width: 50%;
+    height: 100%;
+    padding-right: 10%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+
+    h2{
+        color: #205691;
+    }
+    
+}
+
+@media (max-width: 768px){
+    .content{
+        background-image: none;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+    }
+
+    .text{
+        width: 100%;
+    }
+}
