@@ -1,0 +1,85 @@
+.actionsContainer{
+    
+}
+
+.titlePage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+}
+
+.cardsContainer{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+}
+
+.actionsCards{
+    width: 26%;
+    height: 35vh;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    box-shadow: 0 10px 10px 2px black;
+    transition: 0.4s;
+    
+    
+    
+
+    img{
+        height: 15vh;
+    }
+
+    button{
+        padding: 0.5rem 3rem;
+        background-color: #205691;
+        border-radius: 10px;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    button:hover{
+        background-color: #113d6b;
+    }
+}
+
+.actionsCards:hover{
+        transform: scale(1.1);
+    }
+//Mobile
+@media (max-width: 768px){
+    .actionsContainer{
+        display: flex;
+        flex-direction: column;
+        min-height:auto;
+
+    }
+
+    .titlePage{
+        min-height: 15vh;
+        text-align: center;
+    }
+
+    .cardsContainer{
+        flex-wrap: nowrap;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .actionsCards{
+        width: 60%;
+        height: 40vh;
+        box-shadow: 0 10px 10px 2px black;
+        
+        img{
+            width: 100%;
+        }
+    }
+}

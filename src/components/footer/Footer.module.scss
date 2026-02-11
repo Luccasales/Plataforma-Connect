@@ -1,6 +1,7 @@
 .Footer{
     background-color: #205691;
-    height: 8vh;
+    min-height: 8vh;
+    padding: 10px;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -27,7 +28,7 @@
     .Footer{
         font-size: 0.8em;
         flex-direction: column-reverse;
-        height: 20vh;
+        height: auto;
         text-align: center;
 
         img{

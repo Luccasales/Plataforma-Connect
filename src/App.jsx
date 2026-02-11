@@ -17,12 +17,14 @@ const App = () => {
   return (
     <BrowserRouter>
     <Menu />
-      <Routes>
-        <Route path= "/" element={<Home />} />
-        <Route path='/acoesConnect' element={<ConnectActions />} />
-        <Route path= "/about" element={<About />} />
-        <Route path='/perfil' element={<Perfil />} />
-      </Routes>
+      <main>
+        <Routes>
+          <Route path= "/" element={<Home />} />
+          <Route path='/acoesConnect' element={<ConnectActions />} />
+          <Route path= "/about" element={<About />} />
+          <Route path='/perfil' element={<Perfil />} />
+        </Routes>
+      </main>
       <Footer />
     </BrowserRouter>
   )
