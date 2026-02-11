@@ -1,10 +1,12 @@
 import styles from "./Perfil.module.scss";
 
+import fotoPerfil from '../../../assets/LuccaEspelho.jpeg'
+
 function Perfil() {
   return (
     <section className={styles.containerTelaPerfil}>
       <article>
-        <img src='' alt="Foto de perfil" />
+        <img src={fotoPerfil} alt="Foto de perfil" />
 
         <div className={styles.cardInfo}>
           <h2> Lucca Sales </h2>

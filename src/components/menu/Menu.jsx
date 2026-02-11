@@ -3,6 +3,7 @@ import styles from './Menu.module.scss'
 import { Link } from 'react-router-dom'
 
 import logo from '../../assets/logo.png'
+import fotoPerfil from '../../assets/LuccaEspelho.jpeg'
 
 const Menu = () => {
   return (
@@ -18,7 +19,7 @@ const Menu = () => {
         </ul>
         
       <Link to="/perfil">
-        <img src="" alt="Foto de perfil"/>
+        <img className={styles.imgPerfil}  src={fotoPerfil} alt="Foto de perfil"/>
       </Link>
     </nav>
   )
