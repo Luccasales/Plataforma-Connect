@@ -8,7 +8,7 @@ import './global.scss';
 
 import Home from './components/pages/home/Home.jsx';
 import Menu from './components/menu/Menu';
-import About from './components/pages/About/About.jsx';
+import About from './components/pages/about/About.jsx';
 import ConnectActions from './components/pages/connectActions/ConnectActions.jsx';
 import Perfil from './components/pages/perfil/Perfil.jsx'
 import Footer from './components/footer/Footer.jsx';

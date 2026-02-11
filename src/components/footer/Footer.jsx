@@ -11,7 +11,10 @@ import linkedin from '../../assets/linkedin.png'
 const Footer = () => {
   return (
     <footer className={styles.Footer}>
-      <img src={logo} alt="" />
+      <div className={styles.logo}>
+      <img src={logo} alt="Imagem da logo" />
+      <h2>Connect</h2>
+      </div>
       <p>© 2026 Vai na Web & Empower. Todos os direitos reservados. Projeto destinado exclusivamente a fins educativos.</p>
 
       <ul>
